@@ -1,0 +1,12 @@
+# https://github.com/crossplane-contrib/provider-upjet-azuread/blob/main/apis/v1beta1/types.go#L42
+
+apiVersion: azuread.upbound.io/v1beta1
+kind: ProviderConfig
+metadata:
+  name: default
+spec:
+  # clientID: "00000000-0000-0000-0000-000000000000"
+  credentials:
+    source: OIDCTokenFile
+  oidcTokenFilePath: "omglol"
+  # tenantID: "00000000-0000-0000-0000-000000000000"
